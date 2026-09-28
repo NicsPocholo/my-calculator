@@ -1,0 +1,29 @@
+.container{
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 50px 5px gray;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#output{
+    height: 40px;
+    line-height: 80px;
+    background-color: rgb(207, 205, 205);
+    padding:20px;
+    text-align: end;
+    color:rgb(41, 40, 40);
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.buttons{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.button{
+    
+    text-align: center;
+    line-height: 100px;
+    border:0.3px solid rgb(197, 195, 195);
+}
